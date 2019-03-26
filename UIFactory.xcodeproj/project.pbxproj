@@ -15,14 +15,13 @@
 		045AA658217AAD7500C6E20B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AA657217AAD7500C6E20B /* main.m */; };
 		045AA662217AAD7500C6E20B /* UIFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AA661217AAD7500C6E20B /* UIFactoryTests.m */; };
 		045AA66D217AAD7500C6E20B /* UIFactoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AA66C217AAD7500C6E20B /* UIFactoryUITests.m */; };
-		045AA68A217AAD8100C6E20B /* UIImageView+UIImageView_Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AA67F217AAD8100C6E20B /* UIImageView+UIImageView_Factory.m */; };
-		045AA68B217AAD8100C6E20B /* UILabel+UILabel_Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AA681217AAD8100C6E20B /* UILabel+UILabel_Factory.m */; };
-		045AA68C217AAD8100C6E20B /* UITableView+UItableView_TableviewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AA682217AAD8100C6E20B /* UITableView+UItableView_TableviewFactory.m */; };
-		045AA68D217AAD8100C6E20B /* UITextField+UITextField_Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AA683217AAD8100C6E20B /* UITextField+UITextField_Factory.m */; };
-		045AA68E217AAD8100C6E20B /* UIView+UITableView_Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AA684217AAD8100C6E20B /* UIView+UITableView_Factory.m */; };
-		045AA68F217AAD8100C6E20B /* UIView+UIView_Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AA685217AAD8100C6E20B /* UIView+UIView_Factory.m */; };
-		045AA690217AAD8100C6E20B /* UIButton+UIButton_Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AA686217AAD8100C6E20B /* UIButton+UIButton_Factory.m */; };
 		045AA692217AADA100C6E20B /* BYFoundationLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AA691217AADA000C6E20B /* BYFoundationLog.m */; };
+		04CAEE92224A197800084FC6 /* CJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEE91224A197800084FC6 /* CJLabel.m */; };
+		04CAEE96224A1A8E00084FC6 /* CJTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEE95224A1A8E00084FC6 /* CJTableView.m */; };
+		04CAEE99224A1AE300084FC6 /* CJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEE98224A1AE300084FC6 /* CJTextField.m */; };
+		04CAEE9C224A1B3200084FC6 /* CJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEE9B224A1B3200084FC6 /* CJView.m */; };
+		04CAEE9F224A1B8600084FC6 /* CJImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEE9E224A1B8600084FC6 /* CJImageView.m */; };
+		04CAEEA2224A1BDC00084FC6 /* CJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEEA1224A1BDC00084FC6 /* CJButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,22 +58,20 @@
 		045AA668217AAD7500C6E20B /* UIFactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIFactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045AA66C217AAD7500C6E20B /* UIFactoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIFactoryUITests.m; sourceTree = "<group>"; };
 		045AA66E217AAD7500C6E20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		045AA67B217AAD8100C6E20B /* UIView+UITableView_Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UITableView_Factory.h"; sourceTree = "<group>"; };
-		045AA67C217AAD8100C6E20B /* UITextField+UITextField_Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+UITextField_Factory.h"; sourceTree = "<group>"; };
-		045AA67D217AAD8100C6E20B /* UIButton+UIButton_Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButton_Factory.h"; sourceTree = "<group>"; };
-		045AA67E217AAD8100C6E20B /* UIView+UIView_Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIView_Factory.h"; sourceTree = "<group>"; };
-		045AA67F217AAD8100C6E20B /* UIImageView+UIImageView_Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+UIImageView_Factory.m"; sourceTree = "<group>"; };
-		045AA680217AAD8100C6E20B /* UIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFactory.h; sourceTree = "<group>"; };
-		045AA681217AAD8100C6E20B /* UILabel+UILabel_Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+UILabel_Factory.m"; sourceTree = "<group>"; };
-		045AA682217AAD8100C6E20B /* UITableView+UItableView_TableviewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+UItableView_TableviewFactory.m"; sourceTree = "<group>"; };
-		045AA683217AAD8100C6E20B /* UITextField+UITextField_Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+UITextField_Factory.m"; sourceTree = "<group>"; };
-		045AA684217AAD8100C6E20B /* UIView+UITableView_Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UITableView_Factory.m"; sourceTree = "<group>"; };
-		045AA685217AAD8100C6E20B /* UIView+UIView_Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIView_Factory.m"; sourceTree = "<group>"; };
-		045AA686217AAD8100C6E20B /* UIButton+UIButton_Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButton_Factory.m"; sourceTree = "<group>"; };
-		045AA687217AAD8100C6E20B /* UITableView+UItableView_TableviewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+UItableView_TableviewFactory.h"; sourceTree = "<group>"; };
-		045AA688217AAD8100C6E20B /* UILabel+UILabel_Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+UILabel_Factory.h"; sourceTree = "<group>"; };
-		045AA689217AAD8100C6E20B /* UIImageView+UIImageView_Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+UIImageView_Factory.h"; sourceTree = "<group>"; };
 		045AA691217AADA000C6E20B /* BYFoundationLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYFoundationLog.m; sourceTree = "<group>"; };
+		04CAEE90224A197800084FC6 /* CJLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJLabel.h; sourceTree = "<group>"; };
+		04CAEE91224A197800084FC6 /* CJLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJLabel.m; sourceTree = "<group>"; };
+		04CAEE93224A199700084FC6 /* ZCJUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCJUI.h; sourceTree = "<group>"; };
+		04CAEE94224A1A8E00084FC6 /* CJTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJTableView.h; sourceTree = "<group>"; };
+		04CAEE95224A1A8E00084FC6 /* CJTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJTableView.m; sourceTree = "<group>"; };
+		04CAEE97224A1AE300084FC6 /* CJTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJTextField.h; sourceTree = "<group>"; };
+		04CAEE98224A1AE300084FC6 /* CJTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJTextField.m; sourceTree = "<group>"; };
+		04CAEE9A224A1B3200084FC6 /* CJView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJView.h; sourceTree = "<group>"; };
+		04CAEE9B224A1B3200084FC6 /* CJView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJView.m; sourceTree = "<group>"; };
+		04CAEE9D224A1B8600084FC6 /* CJImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJImageView.h; sourceTree = "<group>"; };
+		04CAEE9E224A1B8600084FC6 /* CJImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJImageView.m; sourceTree = "<group>"; };
+		04CAEEA0224A1BDC00084FC6 /* CJButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJButton.h; sourceTree = "<group>"; };
+		04CAEEA1224A1BDC00084FC6 /* CJButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +122,7 @@
 		045AA647217AAD7400C6E20B /* UIFactory */ = {
 			isa = PBXGroup;
 			children = (
-				045AA67A217AAD8100C6E20B /* UIFactory */,
+				04CAEE8E224A190F00084FC6 /* ZCJUI */,
 				045AA648217AAD7400C6E20B /* AppDelegate.h */,
 				045AA649217AAD7400C6E20B /* AppDelegate.m */,
 				045AA64B217AAD7400C6E20B /* ViewController.h */,
@@ -157,27 +154,25 @@
 			path = UIFactoryUITests;
 			sourceTree = "<group>";
 		};
-		045AA67A217AAD8100C6E20B /* UIFactory */ = {
+		04CAEE8E224A190F00084FC6 /* ZCJUI */ = {
 			isa = PBXGroup;
 			children = (
-				045AA67B217AAD8100C6E20B /* UIView+UITableView_Factory.h */,
-				045AA67C217AAD8100C6E20B /* UITextField+UITextField_Factory.h */,
-				045AA67D217AAD8100C6E20B /* UIButton+UIButton_Factory.h */,
-				045AA67E217AAD8100C6E20B /* UIView+UIView_Factory.h */,
-				045AA67F217AAD8100C6E20B /* UIImageView+UIImageView_Factory.m */,
-				045AA680217AAD8100C6E20B /* UIFactory.h */,
+				04CAEE93224A199700084FC6 /* ZCJUI.h */,
 				045AA691217AADA000C6E20B /* BYFoundationLog.m */,
-				045AA681217AAD8100C6E20B /* UILabel+UILabel_Factory.m */,
-				045AA682217AAD8100C6E20B /* UITableView+UItableView_TableviewFactory.m */,
-				045AA683217AAD8100C6E20B /* UITextField+UITextField_Factory.m */,
-				045AA684217AAD8100C6E20B /* UIView+UITableView_Factory.m */,
-				045AA685217AAD8100C6E20B /* UIView+UIView_Factory.m */,
-				045AA686217AAD8100C6E20B /* UIButton+UIButton_Factory.m */,
-				045AA687217AAD8100C6E20B /* UITableView+UItableView_TableviewFactory.h */,
-				045AA688217AAD8100C6E20B /* UILabel+UILabel_Factory.h */,
-				045AA689217AAD8100C6E20B /* UIImageView+UIImageView_Factory.h */,
+				04CAEE90224A197800084FC6 /* CJLabel.h */,
+				04CAEE91224A197800084FC6 /* CJLabel.m */,
+				04CAEE94224A1A8E00084FC6 /* CJTableView.h */,
+				04CAEE95224A1A8E00084FC6 /* CJTableView.m */,
+				04CAEE97224A1AE300084FC6 /* CJTextField.h */,
+				04CAEE98224A1AE300084FC6 /* CJTextField.m */,
+				04CAEE9A224A1B3200084FC6 /* CJView.h */,
+				04CAEE9B224A1B3200084FC6 /* CJView.m */,
+				04CAEE9D224A1B8600084FC6 /* CJImageView.h */,
+				04CAEE9E224A1B8600084FC6 /* CJImageView.m */,
+				04CAEEA0224A1BDC00084FC6 /* CJButton.h */,
+				04CAEEA1224A1BDC00084FC6 /* CJButton.m */,
 			);
-			path = UIFactory;
+			path = ZCJUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,16 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045AA68C217AAD8100C6E20B /* UITableView+UItableView_TableviewFactory.m in Sources */,
 				045AA64D217AAD7400C6E20B /* ViewController.m in Sources */,
 				045AA658217AAD7500C6E20B /* main.m in Sources */,
-				045AA68E217AAD8100C6E20B /* UIView+UITableView_Factory.m in Sources */,
-				045AA68D217AAD8100C6E20B /* UITextField+UITextField_Factory.m in Sources */,
-				045AA68B217AAD8100C6E20B /* UILabel+UILabel_Factory.m in Sources */,
-				045AA68A217AAD8100C6E20B /* UIImageView+UIImageView_Factory.m in Sources */,
+				04CAEE96224A1A8E00084FC6 /* CJTableView.m in Sources */,
 				045AA692217AADA100C6E20B /* BYFoundationLog.m in Sources */,
-				045AA68F217AAD8100C6E20B /* UIView+UIView_Factory.m in Sources */,
-				045AA690217AAD8100C6E20B /* UIButton+UIButton_Factory.m in Sources */,
+				04CAEE92224A197800084FC6 /* CJLabel.m in Sources */,
+				04CAEEA2224A1BDC00084FC6 /* CJButton.m in Sources */,
+				04CAEE9F224A1B8600084FC6 /* CJImageView.m in Sources */,
+				04CAEE99224A1AE300084FC6 /* CJTextField.m in Sources */,
+				04CAEE9C224A1B3200084FC6 /* CJView.m in Sources */,
 				045AA64A217AAD7400C6E20B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

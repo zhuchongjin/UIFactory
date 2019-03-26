@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "UIFactory.h"
 
 @interface ViewController ()
 

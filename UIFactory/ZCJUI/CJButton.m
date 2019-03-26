@@ -1,16 +1,17 @@
 //
-//  UIButton+UIButton_Factory.m
+//  CJButton.m
 //  UIFactory
 //
-//  Created by zhuchongjin on 2018/9/5.
-//  Copyright © 2018年 zhuchongjin. All rights reserved.
+//  Created by mac on 2019/3/26.
+//  Copyright © 2019年 zhuchongjin. All rights reserved.
 //
 
-#import "UIButton+UIButton_Factory.h"
+#import "CJButton.h"
 
-@implementation UIButton (UIButton_Factory)
-+ (UIButton *)buttonWithFrame:(CGRect)frame title:(NSString *)title titleColor:(UIColor *)titleColor backgroundColor:(UIColor *)backgroundColor borderColor:(UIColor *)borderColor titleFont:(UIFont *)titleFont cornerRadius:(float)cornerRadius Target:(id)target action:(SEL)action{
-    UIButton *view = [UIButton buttonWithType:UIButtonTypeCustom];
+@implementation CJButton
+
++ (CJButton *)buttonWithFrame:(CGRect)frame title:(NSString *)title titleColor:(UIColor *)titleColor backgroundColor:(UIColor *)backgroundColor borderColor:(UIColor *)borderColor titleFont:(UIFont *)titleFont cornerRadius:(float)cornerRadius Target:(id)target action:(SEL)action{
+    CJButton *view = [CJButton buttonWithType:UIButtonTypeCustom];
     
     view.frame = frame;
     
@@ -46,4 +47,5 @@
     
     return view;
 }
+
 @end
