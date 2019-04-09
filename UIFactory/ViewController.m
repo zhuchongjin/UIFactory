@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+#import "ZCJUI.h"
 @interface ViewController ()
 
 @end
@@ -17,13 +18,30 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    UIButton *brn = [UIButton buttonWithFrame:CGRectMake(10, 10, 50, 50) title:@"传值按钮" titleColor:[UIColor redColor] backgroundColor:[UIColor blueColor] borderColor:nil titleFont:[UIFont systemFontSize] cornerRadius:0 Target:<#(id)#> action:<#(SEL)#>];
+
+    CJButton *cjBtn  = [CJButton buttonWithFrame:CGRectMake(100, 100, 100, 100) title:@"点击我" titleColor:[UIColor redColor] backgroundColor:[UIColor grayColor] titleFont:[UIFont systemFontOfSize:14] cornerRadius:5 Target:self action:@selector(bbbbbb)];
+    [cjBtn setCJButtonBorderColor:[UIColor blackColor] borderWidth:2];
+    
+    [cjBtn setCJButtonImageName:@"my6"];
+    cjBtn.imageAlignment = CJImageAlignmentTop;
+    cjBtn.spaceBetweenTitleAndImage = 10;
+    [self.view addSubview:cjBtn];
+    
+    
+    CJButton *cjBtn1  = [CJButton buttonWithFrame:CGRectMake(210, 100, 100, 100) title:@"点击我" titleColor:[UIColor redColor] backgroundColor:[UIColor grayColor] titleFont:[UIFont systemFontOfSize:14] cornerRadius:5 Target:self action:@selector(bbbbbb)];
+    [cjBtn1 setCJButtonBorderColor:[UIColor redColor] borderWidth:5];
+//    [cjBtn1 setCJButtonBorderColor:[UIColor blackColor] borderWidth:2];
+    [cjBtn1 setCJButtonImageName:@"yue_icon"];
+    cjBtn1.imageAlignment = CJImageAlignmentTop;
+    cjBtn1.spaceBetweenTitleAndImage = 10;
+    [self.view addSubview:cjBtn1];
     
 }
 
 - (void)bbbbbb{
     
     
+    NSLog(@"+++++++");
 }
 
 - (void)didReceiveMemoryWarning {
